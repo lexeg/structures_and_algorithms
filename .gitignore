@@ -5,10 +5,17 @@
 *.slo
 *.lo
 *.o
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
 *.obj
 
 # Precompiled Headers
 *.gch
+*.exe
+*.pdb
+*.user
+*.aps
 *.pch
 
 # Compiled Dynamic libraries
@@ -24,9 +31,32 @@
 *.lai
 *.la
 *.a
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
 *.lib
 
 # Executables
 *.exe
 *.out
 *.app
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+.idea/
+.vs/
